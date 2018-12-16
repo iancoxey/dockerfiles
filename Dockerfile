@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:wheezy
 
 RUN apt-get -y update
 RUN apt-get install -y python3 && python-pip
